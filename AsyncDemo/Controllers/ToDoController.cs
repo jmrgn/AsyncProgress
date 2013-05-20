@@ -14,9 +14,9 @@ namespace AsyncDemo.Controllers
     {
         private static List<ToDoItem> db = new List<ToDoItem>
         {
-            new ToDoItem { ID = 0, Title = "Do a silly demo on-stage at Async" },
-            new ToDoItem { ID = 1, Title = "Wash the car" },
-            new ToDoItem { ID = 2, Title = "Get a haircut", Finished = true }
+            new ToDoItem { ID = 0, Title = "Step 1: Show Sync Action" },
+            new ToDoItem { ID = 1, Title = "Step 2: Show Async Action" },
+            new ToDoItem { ID = 2, Title = "Step 3: Show Progress Notification"}
         };
         private static int lastId = db.Max(tdi => tdi.ID);
 
